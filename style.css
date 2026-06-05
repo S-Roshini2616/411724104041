@@ -1,0 +1,96 @@
+/* p{
+    font-size: xx-large;
+    font-weight: bolder;
+} */
+h1{
+    padding: 20px;
+    border: 20px solid green;
+    margin: 20px;
+}
+img{
+    height: 500px;
+    width: 500px;
+    /* border-radius: 500px; */
+    
+}
+video{
+    width: 500px;
+    
+}
+.imgvideo{
+    background-color: aliceblue;
+    padding: 50px;
+}
+#p1{
+    font-weight: 600;
+    font-style: italic;
+}
+#p2{
+    font-style: italic;
+}
+nav{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+ol{
+    list-style-type: upper-roman;
+}
+ul{
+    list-style-type: none;
+}
+table, td, th{
+    border: 1px solid red;
+    border-collapse: collapse;
+}
+th{
+    background-color: aliceblue;
+}
+button{
+    background-color: cyan;
+    border-radius: 50px;
+    padding: 50px;
+
+}
+button:hover{
+    background-color: brown;
+}
+h1:hover{
+    color: blue;
+}
+form{
+    height: 500px;
+    width: 25%;
+    background-color: yellow;
+    padding: 50px;
+    border-radius: 100px;
+}
+.grid{
+    display: grid;
+    width: 100%;
+    grid-template-columns: 33% 33% 33%;
+}
+#one{
+    /* grid-row: 1/2; */
+    background-color: firebrick;
+}
+#two{
+    /* grid-row: 1/2; */
+    background-color: palevioletred;
+}
+#three{
+    /* grid-row: 1/2; */
+    background-color: peachpuff;
+}
+#four{
+    /* grid-row: 2/3; */
+    background-color: aquamarine;
+}
+#five{
+    /* grid-row: 2/3; */
+    background-color: antiquewhite;
+}
+#six{
+    /* grid-row: 2/3; */
+    background-color: rosybrown;
+}
