@@ -1,0 +1,37 @@
+Create a responsive website according to the below requirements
+
+1) nav bar (Mobile-first)
+	- On mobile, it should be vertical
+	- On desktop, it should be in a row with gap between links
+	- There should be 3 <a> tags in a nav bar
+2) 1 <h1> tag
+3) 1 <img> tag with rounded edges 
+4) 1 video whose width is half your device width
+5) Table with 3 rows and 3 columns
+
+	1	some text	some text
+	2	some text	some text
+	3	some text	some text
+
+- 1, 2 and 3 are headings. You can style the table accordingly
+
+6) Button with 
+		- no border
+		- hover effect
+		- padding
+7) Styling for both video and button
+		- Padding for video and margin for button
+		- Same background color for both 
+8) Grid (Desktop-first)
+		- For desktop - 1, 2, 3, 4 in one row and 5, 6, 7, 8 in second row
+		- For mobile - 1, 2 in 1st row; 3, 4 in 2nd row; 5, 6 in 3rd row; 7, 8 in 4th row
+
+Note:
+-----
+1) If your roll number ends with 
+	0 to 3 -> Use blue background color for button and video
+	4 to 6 -> Green background color for button and video
+	7 to 9 -> Purple background color for button and video
+2) If your roll number is
+	even -> 50px image border-radius
+	odd -> 20px image border-radius
