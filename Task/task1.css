@@ -11,12 +11,12 @@ nav a {
 h1 {
     text-align: center;
 }
-@media(min-width: 760px){
+/* @media(min-width: 760px){
     nav{
         flex-direction: row;
         gap: 20px;
     }
-}
+} */
 img{
     width: 500px;
     border-radius: 20px;
@@ -64,8 +64,13 @@ button:hover {
     text-align: center;
     border: 1px solid purple;
 }
-@media (max-width: 767px) {
-    .grid-container {
-        grid-template-columns: repeat(2, 1fr);
+/* @media (max-width: 767px) {
+    .grid {
+        grid-template-columns: repeat(4, 1fr);
+    }
+} */
+@media(min-width: 767px){
+    .grid{
+        grid-template-columns: repeat(2,1fr);
     }
 }
