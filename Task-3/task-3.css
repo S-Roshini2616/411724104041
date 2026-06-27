@@ -1,0 +1,26 @@
+body {
+    font-family: cursive;
+    padding: 20px;
+}
+input {
+    padding: 8px;
+    width: 250px;
+}
+button {
+    padding: 8px 12px;
+    margin: 5px;
+    cursor: pointer;
+}
+#messages {
+    margin-top: 20px;
+}
+.message {
+    background-color: #6e0404;
+    padding: 10px;
+    margin: 5px 0;
+    border-radius: 5px;
+}
+#status {
+    font-weight: bold;
+    margin-top: 10px;
+}

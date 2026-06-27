@@ -1,6 +1,27 @@
-/* .main-section{
+.main-section{
     display: flex;
-} */
+    gap: 1000px;
+}
+.main-section img{
+    border-radius: 500px;
+}
 .project{
     display: flex;
+    gap: 500px;
+}
+nav{
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+    background-color: rgb(0, 225, 255);
+
+    
+}
+@media(min-width:1024px){
+    nav{
+        display: flex;
+        flex-direction: row;
+        padding: 20px;
+        background-color: rgb(0, 225, 255);
+    }
 }
