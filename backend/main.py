@@ -20,9 +20,14 @@ app.add_middleware(
 @app.post("/login")
 def login(user: UserCreate):
 
-   
+    db=SessionLocal()
 
     """post logic"""
+
+    new_user=User(
+        username=user.username, 
+        password=user.password
+                    )
 
    
 
@@ -37,6 +42,8 @@ def get_users():
     db = SessionLocal()
 
     """get logic"""
+
+    users=db.query(User).all()
 
     
     return users
